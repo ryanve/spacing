@@ -1,0 +1,35 @@
+{
+  "name": "spacing",
+  "version": "0.0.0",
+  "description": "CSS spacing classes",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "main.css",
+  "scripts": {
+    "prestart": "npm update",
+    "start": "npm run css",
+    "css": "postcss module.css --use postcss-custom-properties --no-map -o main.css"
+  },
+  "homepage": "https://github.com/ryanve/spacing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/spacing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/spacing/issues"
+  },
+  "keywords": [
+    "css",
+    "margin",
+    "padding",
+    "spacing",
+    "margins",
+    "paddings",
+    "proximity",
+    "functional-css"
+  ],
+  "devDependencies": {
+    "postcss-cli": "^4.1.0",
+    "postcss-custom-properties": "^6.0.1"
+  }
+}
