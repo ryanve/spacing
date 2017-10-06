@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "CSS spacing classes",
   "author": "Ryan Van Etten",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "main": "main.css",
   "scripts": {
     "start": "npm run css",
