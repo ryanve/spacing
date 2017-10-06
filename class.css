@@ -1,0 +1,75 @@
+.p0 { padding: 0 }
+.p1 { padding: var(--space-1) }
+.p2 { padding: var(--space-2) }
+.p3 { padding: var(--space-3) }
+.p4 { padding: var(--space-4) }
+
+.pt0 { padding-top: 0 }
+.pt1 { padding-top: var(--space-1) }
+.pt2 { padding-top: var(--space-2) }
+.pt3 { padding-top: var(--space-3) }
+.pt4 { padding-top: var(--space-4) }
+
+.pl0 { padding-left: 0 }
+.pl1 { padding-left: var(--space-1) }
+.pl2 { padding-left: var(--space-2) }
+.pl3 { padding-left: var(--space-3) }
+.pl4 { padding-left: var(--space-4) }
+
+.pr0 { padding-right: 0 }
+.pr1 { padding-right: var(--space-1) }
+.pr2 { padding-right: var(--space-2) }
+.pr3 { padding-right: var(--space-3) }
+.pr4 { padding-right: var(--space-4) }
+
+.pb0 { padding-bottom: 0 }
+.pb1 { padding-bottom: var(--space-1) }
+.pb2 { padding-bottom: var(--space-2) }
+.pb3 { padding-bottom: var(--space-3) }
+.pb4 { padding-bottom: var(--space-4) }
+
+.m0 { margin: 0 }
+.m1 { margin: var(--space-1) }
+.m2 { margin: var(--space-2) }
+.m3 { margin: var(--space-3) }
+.m4 { margin: var(--space-4) }
+.m-auto { margin: auto }
+
+.mt0 { margin-top: 0 }
+.mt1 { margin-top: var(--space-1) }
+.mt2 { margin-top: var(--space-2) }
+.mt3 { margin-top: var(--space-3) }
+.mt4 { margin-top: var(--space-4) }
+
+.ml0 { margin-left: 0 }
+.ml1 { margin-left: var(--space-1) }
+.ml2 { margin-left: var(--space-2) }
+.ml3 { margin-left: var(--space-3) }
+.ml4 { margin-left: var(--space-4) }
+
+.mr0 { margin-right: 0 }
+.mr1 { margin-right: var(--space-1) }
+.mr2 { margin-right: var(--space-2) }
+.mr3 { margin-right: var(--space-3) }
+.mr4 { margin-right: var(--space-4) }
+
+.mb0 { margin-bottom: 0 }
+.mb1 { margin-bottom: var(--space-1) }
+.mb2 { margin-bottom: var(--space-2) }
+.mb3 { margin-bottom: var(--space-3) }
+.mb4 { margin-bottom: var(--space-4) }
+
+.mt-auto { margin-top: auto }
+.ml-auto { margin-left: auto }
+.mr-auto { margin-right: auto }
+.mb-auto { margin-bottom: auto }
+
+.mt0-first:first-child { margin-top: 0 }
+.ml0-first:first-child { margin-left: 0 }
+.mr0-first:first-child { margin-right: 0 }
+.mb0-first:first-child { margin-bottom: 0 }
+
+.mt0-last:last-child { margin-top: 0 }
+.ml0-last:last-child { margin-left: 0 }
+.mr0-last:last-child { margin-right: 0 }
+.mb0-last:last-child { margin-bottom: 0 }
