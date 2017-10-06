@@ -6,7 +6,6 @@
   "license": "ISC",
   "main": "main.css",
   "scripts": {
-    "prestart": "npm update",
     "start": "npm run css",
     "precss": "concat class.css data.css root.css -o module.css",
     "css": "postcss module.css --use postcss-custom-properties --no-map -o main.css"
