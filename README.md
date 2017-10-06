@@ -1,13 +1,22 @@
 # spacing
 Opensource functional CSS spacing for modern web development
 
+- [<b>setup</b>](#setup)
+- [<b>classes</b>](#classes)
+- [<b>data-spacing</b>](#data-spacing)
+- [<b>scaling</b>](#scaling)
+- [<b>files</b>](#files)
+
 ## setup
 
 ```
 npm install spacing
 ```
 
-Use either the [main](main.css) or [module](module.css) file based on your needs. The main file uses harcoded sensible spacing values. The module is configurable with CSS variables and good for developing but must be built in your pipeline for deep browser support. Import both if you want to have live CSS variables in the browser but fallback to hardcoded values.
+### import whichever [file(s)](#files) meets your needs
+
+- [`main.css`](main.css) is harcoded for CSS3 compatibility
+- [`module.css`](module.css) uses CSS4 variables
 
 ```css
 @import "node_modules/spacing/main";
@@ -103,9 +112,19 @@ Classes are listed in order from least to most precendence.
 - `.mr0-last`
 - `.mb0-last`
 
+## data-spacing
+
+Alternative to [classes](#classes) you can also space via `[data-spacing]` with value(s) being any of the classes.
+
+```html
+<p data-spacing="p1 m0 mb2">
+```
+
+All `[data-spacing]` selectors come after the classes in the cascade.
+
 ## scaling
 
-Spacing variables default to using `rem` such that you can scale them with the `rem` size to make a responsive system.
+### spacing variables default to `rem` and therefore can be scaled responsively with the `rem` size
 
 ```css
 :root {
@@ -113,3 +132,31 @@ Spacing variables default to using `rem` such that you can scale them with the `
   font-size: calc(.9em + .5vw + .5vh);
 }
 ```
+
+### in CSS4 you could scale via media queries
+
+```css
+:root {
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 3rem;
+}
+
+@media (min-width: 30em) and (min-height: 20em) {
+  :root {
+    --space-1: .5rem;
+    --space-2: 1rem;
+    --space-3: 2rem;
+    --space-4: 4rem;
+  }
+}
+```
+
+## files
+
+- [main.css](main.css) css3+ bundle
+  - [module.css](module.css) css4+ bundle
+    - [class.css](class.css) class selectors
+    - [data.css](data.css) data selectors
+    - [root.css](root.css) default variables

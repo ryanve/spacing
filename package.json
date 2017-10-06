@@ -8,6 +8,7 @@
   "scripts": {
     "prestart": "npm update",
     "start": "npm run css",
+    "precss": "concat class.css data.css root.css -o module.css",
     "css": "postcss module.css --use postcss-custom-properties --no-map -o main.css"
   },
   "homepage": "https://github.com/ryanve/spacing",
@@ -29,7 +30,8 @@
     "functional-css"
   ],
   "devDependencies": {
-    "postcss-cli": "^4.1.0",
-    "postcss-custom-properties": "^6.0.1"
+    "concat": "^1.0.3",
+    "postcss-cli": "^4.1.1",
+    "postcss-custom-properties": "^6.1.0"
   }
 }
