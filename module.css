@@ -28,6 +28,8 @@
 .pb3 { padding-bottom: var(--space-3) }
 .pb4 { padding-bottom: var(--space-4) }
 
+.-m2 { margin: calc(var(--space-2) * -1) }
+.-m1 { margin: calc(var(--space-1) * -1) }
 .m0 { margin: 0 }
 .m1 { margin: var(--space-1) }
 .m2 { margin: var(--space-2) }
@@ -104,6 +106,8 @@
 [data-spacing~=pb3] { padding-bottom: var(--space-3) }
 [data-spacing~=pb4] { padding-bottom: var(--space-4) }
 
+[data-spacing~=-m2] { margin: calc(var(--space-2) * -1) }
+[data-spacing~=-m1] { margin: calc(var(--space-1) * -1) }
 [data-spacing~=m0] { margin: 0 }
 [data-spacing~=m1] { margin: var(--space-1) }
 [data-spacing~=m2] { margin: var(--space-2) }

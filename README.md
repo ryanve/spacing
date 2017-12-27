@@ -61,6 +61,8 @@ Classes are listed in order from least to most precendence.
 - `.pb4`
 
 ### `margin`
+- `.-m2`
+- `.-m1`
 - `.m0`
 - `.m1`
 - `.m2`

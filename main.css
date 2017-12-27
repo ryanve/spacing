@@ -28,6 +28,8 @@
 .pb3 { padding-bottom: 2rem }
 .pb4 { padding-bottom: 4rem }
 
+.-m2 { margin: -1rem }
+.-m1 { margin: -0.5rem }
 .m0 { margin: 0 }
 .m1 { margin: .5rem }
 .m2 { margin: 1rem }
@@ -104,6 +106,8 @@
 [data-spacing~=pb3] { padding-bottom: 2rem }
 [data-spacing~=pb4] { padding-bottom: 4rem }
 
+[data-spacing~=-m2] { margin: -1rem }
+[data-spacing~=-m1] { margin: -0.5rem }
 [data-spacing~=m0] { margin: 0 }
 [data-spacing~=m1] { margin: .5rem }
 [data-spacing~=m2] { margin: 1rem }
