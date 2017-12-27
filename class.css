@@ -28,6 +28,8 @@
 .pb3 { padding-bottom: var(--space-3) }
 .pb4 { padding-bottom: var(--space-4) }
 
+.-m2 { margin: calc(var(--space-2) * -1) }
+.-m1 { margin: calc(var(--space-1) * -1) }
 .m0 { margin: 0 }
 .m1 { margin: var(--space-1) }
 .m2 { margin: var(--space-2) }
